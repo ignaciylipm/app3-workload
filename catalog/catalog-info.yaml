@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: app2-workload-info
-  description: Ejemplo de catalogo para app2-workload
+  name: app3-workload-info
+  description: Ejemplo de catalogo para app3-workload
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./systems/app2-system.yaml
-    - ./components/app2-component.yaml
+    - ./systems/app3-system.yaml
+    - ./components/app3-component.yaml
     - ./groups/org.yaml
     

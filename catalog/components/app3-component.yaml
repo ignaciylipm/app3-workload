@@ -1,17 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: app2-workload
-  description: App2 worker App
+  name: app3-workload
+  description: App3 worker App
   tags:
     - java
     - nosql
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app=app2-workload'
+    'backstage.io/kubernetes-label-selector': 'app=app3-workload'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
   lifecycle: experimental
   owner: team-a
-  system: app2-workload-system
+  system: app3-workload-system
   #dependsOn: [Component:yelb-db]
