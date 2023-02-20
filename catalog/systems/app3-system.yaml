@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: app3-workload-system
-  description: Application App2
+  description: Application App3
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
