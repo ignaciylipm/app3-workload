@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: app2-workload-system
+  description: Application App2
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: team-a
+  domain: cloud-apps
